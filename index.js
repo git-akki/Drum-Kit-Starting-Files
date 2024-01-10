@@ -2,7 +2,7 @@ var numOfButton = document.querySelectorAll(".drum").length;
 
 for(var i = 0; i < numOfButton; i++) {
     document.querySelectorAll("button")[i].addEventListener("click", gotclicked);
-    // document.querySelectorAll("button")[i].addEventListener("keypress", gotclicked);
+   
 };
     function gotclicked (){
        
@@ -50,3 +50,4 @@ for(var i = 0; i < numOfButton; i++) {
         }
 
 };
+
